@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+.env
+.venv
+
+# Conda
+.conda/
+conda-bld/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+*.ipynb_checkpoints
+
+# macOS
+.DS_Store
+
+# Data (Penting: Mengabaikan dataset yang sangat besar)
+dataset/*.csv
+df_rfm_final.csv
+df_churn_scores_final.csv
+df_monthly_demand_final.csv
+
+# Output Visual
+research_dashboard_final.png
+shap_force_*.png
+*.png
+
+# IDE
+.vscode/
+.idea/
